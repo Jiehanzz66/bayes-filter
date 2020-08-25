@@ -5,7 +5,7 @@ preview('GEF2017.csv',opts);
 for i =8:14
 opts.VariableTypes{i}='categorical';
 end
-%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 opts.SelectedVariableNames = [1:15]; 
 opts.DataLines = [2,17520];
 load=readtable('GEF2017.csv',opts);
